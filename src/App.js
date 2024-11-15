@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import { useState } from 'react';
+import { QuizProvider } from './context/quizcontext';
+import { Form } from './components/form/Form';
+import { Quiz } from './components/quiz/Quiz';
 import './App.css';
 
 function App() {
+   
+  const [mode, setMode] = useState('menu');
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App container">
+      <QuizProvider>
+      {mode === 'menu' ? <Form setMode={setMode}/> : null}
+      {mode === 'quiz' ? <Quiz/> : null}
+      </QuizProvider>
     </div>
   );
 }

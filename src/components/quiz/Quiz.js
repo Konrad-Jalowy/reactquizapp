@@ -7,6 +7,7 @@ import Timer from "./Timer";
 import prepareAnswer from "../../utils/prepareAnswer";
 import { AnswersList } from "./AnswersList";
 import { useQuiz } from "../../context/quizcontext";
+import { Question } from "./Question";
 
 
 function Quiz(){
