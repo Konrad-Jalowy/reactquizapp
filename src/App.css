@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.selectedAnswer {
+  background-color: goldenrod;
+}
+
+.correctAnswer {
+  background-color: green;
+}
+
+.wrongAnswer {
+  background-color: tomato;
+}
