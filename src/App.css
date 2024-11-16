@@ -72,6 +72,12 @@ button {
   cursor: pointer;
 }
 
+progress {
+  width: 100%;
+  height: 25px;
+  background-color: rgb(156 163 175);
+}
+
 
 
 .selectedAnswer {
