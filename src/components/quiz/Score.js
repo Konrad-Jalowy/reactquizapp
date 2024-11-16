@@ -4,4 +4,12 @@ function Score({score}){
     )
 };
 
-export {Score};
+function ScoreController({score, shouldRender}){
+    return (
+        <>
+        {shouldRender ? <Score score={score} /> : null}
+        </>
+    )
+}
+
+export {Score, ScoreController};

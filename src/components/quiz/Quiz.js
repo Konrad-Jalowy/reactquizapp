@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Score } from "./Score";
+import { ScoreController } from "./Score";
 import { QuizFinished } from "./QuizFinished";
 import LIST from "../../utils/list2";
 import Timer from "./Timer";
@@ -48,7 +48,7 @@ function Quiz(){
     if(shouldRenderQuestion){
         return (
             <>
-            {showScore ? <Score score={score} /> : null}
+            
             <TimerController 
             idx={index} 
             shouldRender={timedQuestions}
@@ -64,6 +64,7 @@ function Quiz(){
             setNextQuestion={setNextQuestion } 
             skipQuestion={skipQuestion}
             showCorrect={showCorrect}/> 
+            <ScoreController score={score} shouldRender={showScore}/>
             </>
         );
     };
