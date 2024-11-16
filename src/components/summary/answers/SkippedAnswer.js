@@ -11,7 +11,7 @@ function SkippedAnswer({idx}){
         <h5 className="skipped">You skipped!</h5>
         </div>
         
-        <ul className="answersList">
+        <ul className="answersListSummary">
             {answers.map(([key, val]) => {
                 return <li key={key} style={ key === correctOne ? {color: 'green', fontWeight: 'bold'}: {}}>{val}</li>
             })}

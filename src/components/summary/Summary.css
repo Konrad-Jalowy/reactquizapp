@@ -1,4 +1,4 @@
-.answersList {
+.answersListSummary {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -7,8 +7,10 @@
    
 }
 
-.answersList li {
-    background-color: rgb(167 243 208);
+.answersListSummary li {
+    
+    background-color: rgb(161 161 170);
+    background-color: rgb(212 212 216);
     padding: 12px;
     font-weight: bold;
     color: rgb(64 64 64);

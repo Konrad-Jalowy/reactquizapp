@@ -12,7 +12,7 @@ function WrongAnswer({idx, chosen}){
         <h5 className="wrong">Wrong answer!</h5>
         </div>
         
-        <ul className="answersList">
+        <ul className="answersListSummary">
             {answers.map(([key, val]) => {
                 console.log(key, val);
                 if(key === chosen){
