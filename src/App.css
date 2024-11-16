@@ -57,7 +57,18 @@ h1 {
 }
 
 button { 
-  padding: 5px;
+  padding-block: 0.3rem;
+  padding-inline: 1rem;
+  margin-block: 1rem;
+  margin-inline: 1rem;
+  min-width: 75px;
+  min-height: 30px;
+  background-color: rgb(209 250 229);
+  border: 2px solid rgb(52 211 153);
+  border-radius: 5%;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 
