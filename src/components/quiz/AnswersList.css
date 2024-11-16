@@ -8,7 +8,11 @@
 }
 
 .answersList li {
-    background-color: blue;
+    background-color: rgb(167 243 208);
+    padding: 12px;
+    font-weight: bold;
+    color: rgb(64 64 64);
+    border-radius: 5px;
     
 }
 
