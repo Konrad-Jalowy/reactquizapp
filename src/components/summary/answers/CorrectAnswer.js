@@ -7,7 +7,7 @@ function CorrectAnswer({idx}){
     return (
         <>
         <div className="summaryHeading">
-        <h3 className="good">Question {idx+1}: <em>{LIST[idx].question}</em></h3>
+        <h3><span className="index-correct">Question {idx+1}: </span> <em>{LIST[idx].question}</em></h3>
         <h5 className="good">Good answer!</h5>
         </div>
         

@@ -8,8 +8,8 @@ function WrongAnswer({idx, chosen}){
     return (
         <>
         <div className="summaryHeading">
-        <h3>Question {idx+1}: <em>{LIST[idx].question}</em></h3>
-        <h5>Wrong answer!</h5>
+        <h3><span className="index-wrong">Question {idx+1}: </span><em>{LIST[idx].question}</em></h3>
+        <h5 className="wrong">Wrong answer!</h5>
         </div>
         
         <ul className="answersList">

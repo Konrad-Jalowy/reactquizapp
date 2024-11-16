@@ -7,7 +7,7 @@ function SkippedAnswer({idx}){
     return (
         <>
         <div className="summaryHeading">
-        <h3>Question {idx+1}: <em>{LIST[idx].question}</em></h3>
+        <h3><span className="index-skipped">Question {idx+1}: </span> <em>{LIST[idx].question}</em></h3>
         <h5 className="skipped">You skipped!</h5>
         </div>
         
