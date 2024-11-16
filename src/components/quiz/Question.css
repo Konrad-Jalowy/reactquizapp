@@ -2,10 +2,15 @@ h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
     color: rgb(16 185 129);
+    color: rgb(64 64 64);
+    color: rgb(15 23 42);
+    
 }
 
 .index {
-    color: rgb(64 64 64);
+    color: rgb(251 146 60);
     font-weight: bolder;
     font-size: 2.2rem;
+    color: rgb(15 23 42);
+    color: rgb(64 64 64);
 }
