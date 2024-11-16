@@ -1,5 +1,6 @@
 import { useRef, useState, useEffect } from "react";
 import LIST from "../../utils/list2";
+import './AnswersList.css';
 function AnswersList({idx, shuffle, setNextQuestion, skipQuestion, setTimerBlocked, showCorrect}){
 
     const answers = useRef(null);
@@ -76,7 +77,7 @@ function AnswersList({idx, shuffle, setNextQuestion, skipQuestion, setTimerBlock
 
     return (
         <> 
-            <ul>
+            <ul className="answersList">
             {answers.current.map((item) => {
                 const [key,value] = item;
                return (

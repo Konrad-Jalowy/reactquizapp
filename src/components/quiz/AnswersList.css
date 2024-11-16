@@ -1,0 +1,25 @@
+.answersList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+   
+}
+
+.answersList li {
+    background-color: blue;
+    
+}
+
+.answersList li.selectedAnswer {
+    background-color: goldenrod;
+  }
+  
+.answersList li.correctAnswer {
+    background-color: green;
+  }
+  
+.answersList li.wrongAnswer {
+    background-color: tomato;
+  }
