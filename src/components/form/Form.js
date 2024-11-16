@@ -6,7 +6,7 @@ import { QuestionTiming } from "./QuestionTiming";
 function Form({setMode}){
     return (
         <>
-        <p>Quiz Options:</p>
+        <h3>Quiz Options:</h3>
         <ShuffleAnswersCheckbox/>
         <ShowScoreCheckbox/>
         <ShowCorrectCheckbox/>
