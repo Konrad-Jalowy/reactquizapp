@@ -13,7 +13,7 @@ function CorrectAnswer({idx}){
         
         <ul className="answersListSummary">
             {answers.map(([key, val]) => {
-                return <li key={key} style={ key === correctOne ? {color: 'green', fontWeight: 'bold'}: {}}>{val}</li>
+                return <li key={key} className={key === correctOne ? "correct-outline chosen-outline" : ""}>{val}</li>
             })}
         </ul>
         </>

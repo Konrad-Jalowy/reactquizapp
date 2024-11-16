@@ -64,7 +64,9 @@ function Quiz(){
             setNextQuestion={setNextQuestion } 
             skipQuestion={skipQuestion}
             showCorrect={showCorrect}/> 
-            <ScoreController score={score} shouldRender={showScore}/>
+            <ScoreController 
+            score={score} 
+            shouldRender={showScore}/>
             </>
         );
     };

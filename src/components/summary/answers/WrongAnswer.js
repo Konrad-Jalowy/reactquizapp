@@ -16,11 +16,9 @@ function WrongAnswer({idx, chosen}){
             {answers.map(([key, val]) => {
                 console.log(key, val);
                 if(key === chosen){
-                    return <li key={key} style={{color: 'red',
-                         textDecoration: 'line-through',
-                        fontWeight: 'bold'}}>{val}</li> 
+                    return <li key={key} className="wrong-outline chosen-outline">{val}</li> 
                 }
-                return <li key={key} style={ key === correctOne ? {color: 'green', fontWeight: 'bold'}: {}}>{val}</li>
+                return <li key={key} className={key === correctOne ? "correct-outline" : ""}>{val}</li>
             })}
         </ul>
         </>
