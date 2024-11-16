@@ -1,0 +1,25 @@
+h3 {
+    font-size: 2rem;
+    margin-block: .5rem;
+}
+
+.options {
+    background-color: goldenrod;
+    display: flex;
+    flex-direction: column;
+}
+
+.options input[type="checkbox"]{
+    height: 20px;
+    width: 20px;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+    align-items: center;
+}
+.options label {
+    margin-left: .3rem;
+}

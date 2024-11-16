@@ -1,6 +1,7 @@
 import { useRef, useState, useEffect } from "react";
 import LIST from "../../utils/list2";
 import './AnswersList.css';
+import { SimpleSummary } from "../summary/SimpleSummary";
 function AnswersList({idx, shuffle, setNextQuestion, skipQuestion, setTimerBlocked, showCorrect}){
 
     const answers = useRef(null);
@@ -88,10 +89,14 @@ function AnswersList({idx, shuffle, setNextQuestion, skipQuestion, setTimerBlock
                >{value}</li>)
             })}
             </ul>
+            <div className="answersControls">
             <button 
             disabled={mode !== null}
             onClick={() => skipQuestion()}
             >Skip</button>
+            <SimpleSummary idx={idx} />
+            </div>
+            
         </>
     );
 }

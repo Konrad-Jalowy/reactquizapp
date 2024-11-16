@@ -3,7 +3,7 @@ import { useQuizWithDispatch } from "../../context/quizcontext";
 function ShowCorrectCheckbox(){
     const [{showCorrect}, dispatch] = useQuizWithDispatch();
     return (
-        <div>
+        <div className="checkbox">
         <input 
         type="checkbox" 
         id="showCorrect" 

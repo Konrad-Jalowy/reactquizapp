@@ -4,7 +4,7 @@ function SimpleSummary({idx}){
     
     return (
         <>
-        <p>Question {idx + 1} / {LIST.length}</p>
+        <span>Question {idx + 1} / {LIST.length}</span>
         </>
     )
 };

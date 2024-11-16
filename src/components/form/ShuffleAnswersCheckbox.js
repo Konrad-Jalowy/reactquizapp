@@ -4,7 +4,7 @@ function ShuffleAnswersCheckbox(){
 
     const [{shuffleAnswers}, dispatch] = useQuizWithDispatch();
     return (
-        <div>
+        <div className="checkbox">
         <input 
         type="checkbox" 
         id="shuffleAnswers" 

@@ -2,7 +2,7 @@ import { useQuizWithDispatch } from "../../context/quizcontext";
 function ShowScoreCheckbox(){
     const [{showScore}, dispatch] = useQuizWithDispatch();
     return (
-        <div>
+        <div className="checkbox">
         <input 
         type="checkbox" 
         id="showScore" 

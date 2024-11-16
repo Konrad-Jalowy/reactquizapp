@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Score } from "./Score";
-import { SimpleSummary } from "../summary/SimpleSummary";
 import { QuizFinished } from "./QuizFinished";
 import LIST from "../../utils/list2";
 import Timer from "./Timer";
@@ -66,8 +65,6 @@ function Quiz(){
             setNextQuestion={setNextQuestion } 
             skipQuestion={skipQuestion}
             showCorrect={showCorrect}/> 
-            <SimpleSummary idx={index} />
-           
             </>
         );
     };
