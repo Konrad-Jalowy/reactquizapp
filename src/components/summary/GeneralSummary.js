@@ -1,4 +1,5 @@
 import { ClickableSummary } from "./ClickableSummary";
+import './Summary.css';
 
 function GeneralSummary({answers}){
 
@@ -10,9 +11,9 @@ function GeneralSummary({answers}){
     return (
         <>
         <h2>Summary:</h2>
-        <p style={{fontWeight: 'bold'}}><span style={{color: 'green'}}>Correct: {correct}</span> / <span style={{color: 'blue'}}>{max} ({Math.round((correct / max) * 100)}%)</span></p>
-        <p style={{fontWeight: 'bold'}}><span style={{color: 'red'}}>Wrong: {wrong}</span> / <span  style={{color: 'blue'}}>{max} ({Math.round((wrong / max) * 100)}%)</span></p>
-        <p style={{fontWeight: 'bold'}}><span style={{color: 'orange'}}>Skipped: {skipped}</span> / <span style={{color: 'blue'}}>{max} ({Math.round((skipped / max) * 100)}%)</span> </p>
+        <p><span style={{color: 'green'}}>Correct: {correct}</span> / <span style={{color: 'blue'}}>{max} ({Math.round((correct / max) * 100)}%)</span></p>
+        <p><span style={{color: 'red'}}>Wrong: {wrong}</span> / <span  style={{color: 'blue'}}>{max} ({Math.round((wrong / max) * 100)}%)</span></p>
+        <p><span style={{color: 'orange'}}>Skipped: {skipped}</span> / <span style={{color: 'blue'}}>{max} ({Math.round((skipped / max) * 100)}%)</span> </p>
         <ClickableSummary answers={answers} />
         </>
     )

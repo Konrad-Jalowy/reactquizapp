@@ -7,9 +7,12 @@ function WrongAnswer({idx, chosen}){
     let correctOne = LIST[idx].correct;
     return (
         <>
-        <h3 style={{color: 'red'}}>Question {idx+1}: <em>{LIST[idx].question}</em></h3>
-        <h5 style={{color: 'red'}}>Wrong answer!</h5>
-        <ul>
+        <div className="summaryHeading">
+        <h3>Question {idx+1}: <em>{LIST[idx].question}</em></h3>
+        <h5>Wrong answer!</h5>
+        </div>
+        
+        <ul className="answersList">
             {answers.map(([key, val]) => {
                 console.log(key, val);
                 if(key === chosen){

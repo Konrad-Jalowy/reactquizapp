@@ -1,0 +1,42 @@
+.answersList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+   
+}
+
+.answersList li {
+    background-color: rgb(167 243 208);
+    padding: 12px;
+    font-weight: bold;
+    color: rgb(64 64 64);
+    border-radius: 5px;
+    
+}
+
+.summaryHeading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.good {
+    color: green;
+}
+.skipped {
+    color: orange;
+}
+
+.wrong {
+    color: red;
+}
+.summaryButtons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.summaryButtons button {
+    margin-right: 0;
+}

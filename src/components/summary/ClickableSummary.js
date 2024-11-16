@@ -26,8 +26,10 @@ function ClickableSummary({answers}){
         {answer.current.isSkipped && <SkippedAnswer idx={index} /> }
         {answer.current.isCorrect && <CorrectAnswer idx={index}/>}
         {(answer.current.isCorrect === false) && <WrongAnswer idx={index} chosen={answer.current.chosenAnswer}/>}
+        <div className="summaryButtons">
         <button onClick={prevClickHandler} disabled={index === 0}>Previous</button>
         <button onClick={nextClickHandler} disabled={index === maxIndex}>Next</button>
+        </div>
         </>
     )
 };
