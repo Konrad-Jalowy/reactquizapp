@@ -10,6 +10,7 @@ function App() {
 
   return (
     <div className="App container">
+      <h1>My Quiz App Project</h1>
       <QuizProvider>
       {mode === 'menu' ? <Form setMode={setMode}/> : null}
       {mode === 'quiz' ? <Quiz/> : null}
