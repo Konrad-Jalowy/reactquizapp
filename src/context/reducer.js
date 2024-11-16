@@ -27,7 +27,12 @@ function quizContextReducer(state, action){
               showCorrect: !state.showCorrect
             };
           }
-        
+          case 'questionTimeChange': {
+            return {
+              ...state, 
+              timePerQuestion: action.payload
+            };
+          }
         default: {
           throw Error('Unknown action: ' + action.type);
         }
