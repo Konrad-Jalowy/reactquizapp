@@ -4,9 +4,10 @@ h3 {
 }
 
 .options {
-    background-color: goldenrod;
     display: flex;
     flex-direction: column;
+    gap:.5rem;
+    font-size: 1.2rem;
 }
 
 .options input[type="checkbox"]{
@@ -17,9 +18,18 @@ h3 {
 .checkbox {
     display: flex;
     flex-direction: row;
-    background-color: green;
+   
     align-items: center;
 }
 .options label {
     margin-left: .3rem;
+}
+.qTime {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.qTime label {
+    margin-left: 0;
 }
