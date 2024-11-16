@@ -7,7 +7,7 @@ import prepareAnswer from "../../utils/prepareAnswer";
 import { AnswersList } from "./AnswersList";
 import { useQuiz } from "../../context/quizcontext";
 import { Question } from "./Question";
-
+import TimerController from "./TimerController";
 
 function Quiz(){
 
@@ -49,13 +49,12 @@ function Quiz(){
         return (
             <>
             {showScore ? <Score score={score} /> : null}
-            {timedQuestions ?  
-            <Timer 
-            key={index+1} 
+            <TimerController 
+            idx={index} 
+            shouldRender={timedQuestions}
             timeout={timePerQuestion * 1000} 
             onTimeout={timerBlocked ? null : skipQuestion} 
-            blocked={timerBlocked}
-            /> : null }
+            blocked={timerBlocked} />
             <Question idx={index}/> 
             <AnswersList 
             idx={index} 
