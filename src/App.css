@@ -3,7 +3,17 @@
   margin: 0;
   padding: 0;
 }
-
+h1 {
+  font-size: 4rem;
+  font-weight: bolder;
+   background-color: rgb(34 211 238);
+   padding: 0.5rem;
+   margin-block: 1rem;
+   border-radius: 1rem;
+   text-align: center;
+   color: rgb(165 243 252);
+   text-shadow: 2px 2px 1px rgb(207 250 254);
+}
 .App {
   /* text-align: center; */
 }
