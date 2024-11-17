@@ -13,10 +13,7 @@
     color: rgb(64 64 64);
     border-radius: 5px;
     transition: all .5s;
-    background-color: rgb(5 150 105);
-    
-   
-    
+    background-color: rgb(5 150 105); 
 }
 
 .answersList li.hoverable:hover{
@@ -24,15 +21,16 @@
 }
 
 .answersList li.selectedAnswer {
-    background-color: goldenrod;
+    background-color: rgb(251 146 60);
   }
   
 .answersList li.correctAnswer {
-    background-color: green;
+    background-color: rgb(74 222 128);
   }
   
 .answersList li.wrongAnswer {
-    background-color: tomato;
+   
+    background-color: rgb(248 113 113);
   }
   
   .answersControls {
