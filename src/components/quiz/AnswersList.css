@@ -22,7 +22,6 @@
 }
 
 .answersList li.hoverable:hover{
-    background-color: rgb(16 185 129);
     background-color: rgb(148 163 184);
 }
 
