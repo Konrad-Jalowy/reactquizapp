@@ -14,7 +14,7 @@ function Form({setMode}){
         <ShowCorrectCheckbox/>
         <QuestionTiming/>
         </div>
-        <button onClick={() => setMode('quiz')}>Start</button>
+        <button className="startBtn" onClick={() => setMode('quiz')}>Start</button>
         </div>
         
         

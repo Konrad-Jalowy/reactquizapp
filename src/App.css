@@ -93,8 +93,8 @@ progress {
 }
 
 .container button {
-  min-width: 120px;
-  max-width: 125px;
+  /* min-width: 120px;
+  max-width: 125px; */
   min-height: 35px;
   font-size: 1.5rem;
   padding: 6px 12px;

@@ -16,6 +16,11 @@ h3 {
     margin: auto;
 }
 
+.startBtn {
+    width: 200px;
+    min-width: 200px;
+}
+
 .options input[type="checkbox"]{
     height: 20px;
     width: 20px;
