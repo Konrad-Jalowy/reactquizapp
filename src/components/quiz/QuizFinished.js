@@ -4,7 +4,7 @@ import { GeneralSummary } from "../summary/GeneralSummary";
 function QuizFinished({answers, score}){
     return (
         <>
-        <GeneralSummary answers={answers} />
+        <GeneralSummary answers={answers} score={score} />
         </>
     )
 };
