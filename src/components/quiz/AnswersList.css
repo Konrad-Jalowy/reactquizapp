@@ -45,14 +45,23 @@
     
 }
 
-.answersControls span {
+/* .answersControls span {
     font-weight: bold;
   color: rgb(226 232 240);
   font-size: 2rem;
   background-color: rgb(100 116 139);
   padding: 8px 16px;
   border-radius: 10px;
-}
+} */
+
+.answersControls span {
+    font-weight: bold;
+    color: rgb(221 214 254);
+    font-size: 2rem;
+    background-color: rgb(91 33 182);
+    padding: 8px 16px;
+    border-radius: 10px;
+  }
 .answersControls button {
     min-width: 120px;
     min-height: 35px;

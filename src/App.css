@@ -9,7 +9,7 @@ body {
   background-color: rgb(209 213 219);
   background-color: rgb(226 232 240)
 }
-h1 {
+/* h1 {
   font-size: 4rem;
   font-weight: bolder;
   background-color: rgb(7 89 133);
@@ -19,6 +19,18 @@ h1 {
   text-align: center;
   color: rgb(186 230 253);
   text-shadow: 1px 1px 3px rgb(212 212 216);
+} */
+h1 {
+  font-size: 4rem;
+  font-weight: bolder;
+  background-color: rgb(134 25 143);
+  padding: 0.5rem;
+  margin-block: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+  color: rgb(240 171 252);
+  text-shadow: 1px 1px 3px rgb(240 171 252);
+  box-shadow: 0px 0px 7px rgb(134 25 143);
 }
 .App {
   /* text-align: center; */
@@ -128,13 +140,27 @@ progress {
   display: flex;
   justify-content: flex-end;
 }
-.score p {
+/* .score p {
   flex-basis: 244px;
   height: 55px;
   font-weight: bold;
   color: rgb(226 232 240);
   font-size: 2rem;
   background-color: rgb(100 116 139);
+  padding: 8px 16px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.score p {
+  flex-basis: 244px;
+  height: 55px;
+  font-weight: bold;
+  color: rgb(221 214 254);
+  font-size: 2rem;
+  background-color: rgb(91 33 182);
   padding: 8px 16px;
   border-radius: 10px;
   display: flex;
