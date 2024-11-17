@@ -102,7 +102,7 @@ progress {
   
   border: none;
   border-radius: 10px;
-  transition: all .5s;
+  transition: background-color .5s;
   text-transform: uppercase;
  
   color: rgb(221 214 254);
@@ -113,7 +113,8 @@ progress {
 
 .container button:disabled{
   pointer-events: none;
-  background-color: rgb(156 163 175);
+  /* background-color: rgb(156 163 175); */
+  visibility: hidden;
   
 }
 
