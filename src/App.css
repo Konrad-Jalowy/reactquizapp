@@ -12,13 +12,13 @@ body {
 h1 {
   font-size: 4rem;
   font-weight: bolder;
-   background-color: rgb(82 82 91);
-   padding: 0.5rem;
-   margin-block: 1rem;
-   border-radius: 1rem;
-   text-align: center;
-   color: rgb(212 212 216);
-   text-shadow: 1px 1px 3px rgb(212 212 216);
+  background-color: rgb(7 89 133);
+  padding: 0.5rem;
+  margin-block: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+  color: rgb(186 230 253);
+  text-shadow: 1px 1px 3px rgb(212 212 216);
 }
 .App {
   /* text-align: center; */
@@ -98,13 +98,14 @@ progress {
   min-height: 35px;
   font-size: 1.5rem;
   padding: 10px 16px;
-  letter-spacing: 1px;
+  letter-spacing: 5px;
   background-color: rgb(100 116 139);
   /* border: 3px solid rgb(71 85 105); */
   color: rgb(226 232 240);
   border: none;
   border-radius: 10px;
   transition: all .5s;
+  text-transform: uppercase;
 
 }
 
@@ -124,7 +125,7 @@ progress {
   justify-content: flex-end;
 }
 .score p {
-  flex-basis: 200px;
+  flex-basis: 244px;
   height: 55px;
   font-weight: bold;
   color: rgb(226 232 240);

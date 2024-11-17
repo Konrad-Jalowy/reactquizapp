@@ -22,9 +22,11 @@
 }
 
 .summaryHeading {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .good {
@@ -52,12 +54,21 @@
 
 
 
-.index-skipped {
+/* .index-skipped {
     font-weight: bolder;
     font-size: 2.2rem;
     color: rgb(253 186 116);
     
-}
+} */
+
+.index-skipped {
+    font-weight: bolder;
+    font-size: 3.2rem;
+    color: rgb(254 215 170);
+    background-color: rgb(249 115 22);
+    padding: 8px 16px;
+    border-radius: 10px;
+  }
 
 .index-wrong {
     font-weight: bolder;
@@ -99,20 +110,24 @@
     font-weight: bold;
     font-size: 1.5rem;
     color: rgb(221 214 254);
+    box-shadow: 0px 0px 7px rgb(139 92 246);
 }
 
 .percentSummary > p.skipped {
     background-color: rgb(234 88 12);
     color: rgb(254 215 170);
+    box-shadow: 0px 0px 7px rgb(234 88 12);
 }
 .percentSummary > p.wrong {
     color: rgb(254 202 202);
     background-color: rgb(239 68 68);
+    box-shadow: 0px 0px 7px rgb(239 68 68);
 }
 .percentSummary > p.correct {
    
         color: rgb(187 247 208);
         background-color: rgb(21 128 61);
+        box-shadow: 0px 0px 7px rgb(21 128 61);
       
 }
 
