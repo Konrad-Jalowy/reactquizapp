@@ -8,10 +8,12 @@ function Form({setMode}){
         <>
         <h3>Quiz Options:</h3>
         <div className="options">
+            <div className="checkboxes">
         <ShuffleAnswersCheckbox/>
         <ShowScoreCheckbox/>
         <ShowCorrectCheckbox/>
         <QuestionTiming/>
+        </div>
         <button onClick={() => setMode('quiz')}>Start</button>
         </div>
         
