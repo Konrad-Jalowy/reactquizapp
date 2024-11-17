@@ -1,6 +1,7 @@
 h3 {
     font-size: 2rem;
     margin-block: .5rem;
+    text-align: center;
 }
 
 .options {
@@ -8,6 +9,11 @@ h3 {
     flex-direction: column;
     gap:.5rem;
     font-size: 1.2rem;
+    align-items: center;
+    
+}
+.options button {
+    margin: auto;
 }
 
 .options input[type="checkbox"]{

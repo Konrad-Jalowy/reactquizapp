@@ -91,3 +91,23 @@ progress {
 .wrongAnswer {
   background-color: tomato;
 }
+
+.container button {
+  min-width: 120px;
+  max-width: 125px;
+  min-height: 35px;
+  font-size: 1.5rem;
+  padding: 6px 12px;
+  letter-spacing: 1px;
+  background-color: rgb(100 116 139);
+  /* border: 3px solid rgb(71 85 105); */
+  color: rgb(226 232 240);
+  border: none;
+  border-radius: 10px;
+
+}
+
+.container button:hover {
+  background-color: rgb(148 163 184);
+}
+
