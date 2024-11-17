@@ -9,7 +9,7 @@ function WrongAnswer({idx, chosen}){
         <>
         <div className="summaryHeading">
         <h3><span className="index-wrong">Question {idx+1}: </span><em>{LIST[idx].question}</em></h3>
-        <h5 className="wrong">Wrong answer!</h5>
+        <h5 className="wrong">&#10060;Wrong answer!</h5>
         </div>
         
         <ul className="answersListSummary">

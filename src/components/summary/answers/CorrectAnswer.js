@@ -8,7 +8,7 @@ function CorrectAnswer({idx}){
         <>
         <div className="summaryHeading">
         <h3><span className="index-correct">Question {idx+1}: </span> <em>{LIST[idx].question}</em></h3>
-        <h5 className="good">Good answer!</h5>
+        <h5 className="good">❎Good answer!</h5>
         </div>
         
         <ul className="answersListSummary">

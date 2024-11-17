@@ -31,6 +31,7 @@ h1 {
   color: rgb(240 171 252);
   text-shadow: 1px 1px 3px rgb(240 171 252);
   box-shadow: 0px 0px 7px rgb(134 25 143);
+  text-transform: uppercase;
 }
 .App {
   /* text-align: center; */
@@ -140,19 +141,7 @@ progress {
   display: flex;
   justify-content: flex-end;
 }
-/* .score p {
-  flex-basis: 244px;
-  height: 55px;
-  font-weight: bold;
-  color: rgb(226 232 240);
-  font-size: 2rem;
-  background-color: rgb(100 116 139);
-  padding: 8px 16px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
+
 
 .score p {
   flex-basis: 244px;
@@ -168,12 +157,3 @@ progress {
   align-items: center;
 }
 
-/* .summaryButtons button {
-    background-color: rgb(139 92 246);
-    padding: 1rem 2rem;
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 1.5rem;
-    color: rgb(221 214 254);
-    box-shadow: 0px 0px 7px rgb(139 92 246);
-} */
