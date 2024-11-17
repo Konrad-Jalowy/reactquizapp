@@ -86,6 +86,7 @@ function AnswersList({idx, shuffle, setNextQuestion, skipQuestion, setTimerBlock
                key={key} 
                data-idx={key} 
                onClick={(e) => handleClick(e)}
+               className={mode === null ? 'hoverable' : ''}
                >{value}</li>)
             })}
             </ul>

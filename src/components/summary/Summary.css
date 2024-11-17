@@ -71,7 +71,7 @@
 .answersListSummary li.wrong-outline {
     border: 3px solid red;
     color: red;
-    text-decoration: line-through;
+    text-decoration-line: line-through;
     font-weight: bolder;
 }
 
