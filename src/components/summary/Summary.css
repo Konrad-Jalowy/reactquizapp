@@ -9,14 +9,9 @@
 
 .answersListSummary li {
     
-    background-color: rgb(161 161 170);
-    background-color: rgb(212 212 216);
-    background-color: rgb(103 232 249);
     background-color: rgb(6 182 212);
     padding: 12px;
     font-weight: bold;
-    color: rgb(64 64 64);
-    color: white;
     color: rgb(165 243 252);
     border-radius: 5px;
     flex-basis: 80px;
@@ -24,7 +19,6 @@
     justify-content: flex-start;
     align-items: center;
     font-size: 2rem;
-    
 }
 
 .summaryHeading {
