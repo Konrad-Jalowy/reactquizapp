@@ -94,11 +94,13 @@
     background-color: blue;
     
     background-color: rgb(148 163 184);
+    background-color: rgb(139 92 246);
     padding: 1rem 2rem;
     border-radius: 5px;
     font-weight: bold;
     font-size: 1.5rem;
     color: white;
+    color: rgb(221 214 254);
 }
 
 .percentSummary > p.skipped {
