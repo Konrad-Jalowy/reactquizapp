@@ -20,6 +20,7 @@ h3 {
     /* width: 200px;
     min-width: 200px; */
     width: 100%;
+    transition: all .5s;
 }
 
 .options input[type="checkbox"]{
