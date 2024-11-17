@@ -6,15 +6,16 @@ import './Form.css';
 function Form({setMode}){
     return (
         <>
-        <h3>Quiz Options:</h3>
         <div className="options">
+        <h2>Quiz Options:</h2>
             <div className="checkboxes">
         <ShuffleAnswersCheckbox/>
         <ShowScoreCheckbox/>
         <ShowCorrectCheckbox/>
         <QuestionTiming/>
-        </div>
         <button className="startBtn" onClick={() => setMode('quiz')}>Start</button>
+        </div>
+        
         </div>
         
         

@@ -17,15 +17,19 @@ h3 {
 }
 
 .startBtn {
-    width: 200px;
-    min-width: 200px;
+    /* width: 200px;
+    min-width: 200px; */
+    width: 100%;
 }
 
 .options input[type="checkbox"]{
-    height: 20px;
-    width: 20px;
+    height: 40px;
+    width: 40px;
 }
+.options input[type="range"]{
 
+    width: 100%;
+}
 .checkbox {
     display: flex;
     flex-direction: row;
@@ -43,4 +47,12 @@ h3 {
 
 .qTime label {
     margin-left: 0;
+}
+
+.checkboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 2rem;
+    letter-spacing: 1.5px;
 }
