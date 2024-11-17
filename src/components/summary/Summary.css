@@ -26,14 +26,18 @@
 }
 
 .good {
-    color: green;
+    color: rgb(22 163 74);
+    font-size: 1.2rem;
 }
 .skipped {
-    color: orange;
+   color: rgb(253 186 116);
+   font-size: 1.2rem;
+
 }
 
 .wrong {
-    color: red;
+    color: rgb(239 68 68);
+    font-size: 1.2rem;
 }
 .summaryButtons {
     display: flex;
