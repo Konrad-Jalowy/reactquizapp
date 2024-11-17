@@ -79,3 +79,24 @@
 .answersListSummary li.chosen-outline {
     background-color: rgb(251 146 60);
 }
+
+.percentSummary {
+    display: flex;
+    justify-content: space-between;
+}
+
+.percentSummary > p {
+    background-color: blue;
+    
+    background-color: rgb(148 163 184);
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+hr {
+    margin-top: 2rem;
+    height: 3px;
+    background-color: black;
+}

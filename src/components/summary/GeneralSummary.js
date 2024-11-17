@@ -8,8 +8,11 @@ function GeneralSummary({answers, score}){
    
     return (
         <>
-        <ClickableSummary answers={answers} />
+        <h2 style={{textAlign: 'center'}}>Quiz Finished!</h2>
         <PercentSummary answers={answers} score={score}/>
+        <hr/>
+        <ClickableSummary answers={answers} />
+        
         </>
     )
 };
