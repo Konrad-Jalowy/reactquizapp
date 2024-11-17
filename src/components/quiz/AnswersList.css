@@ -19,10 +19,12 @@
     justify-content: flex-start;
     align-items: center;
     font-size: 2rem;
+    background-color: rgb(157 23 77);
 }
 
 .answersList li.hoverable:hover{
     background-color: rgb(148 163 184);
+    background-color: rgb(249 168 212);;
 }
 
 .answersList li.selectedAnswer {
