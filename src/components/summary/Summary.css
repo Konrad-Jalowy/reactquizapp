@@ -11,6 +11,7 @@
     
     background-color: rgb(161 161 170);
     background-color: rgb(212 212 216);
+    background-color: rgb(103 232 249);
     padding: 12px;
     font-weight: bold;
     color: rgb(64 64 64);
@@ -63,8 +64,8 @@
 }
 
 .answersListSummary li.correct-outline {
-    border: 3px solid green;
-    color: green;
+    border: 3px solid rgb(22 163 74);;
+    color: rgb(22 163 74);;
     font-weight: bolder;
 }
 
@@ -76,5 +77,5 @@
 }
 
 .answersListSummary li.chosen-outline {
-    background-color: orange;
+    background-color: rgb(251 146 60);
 }
