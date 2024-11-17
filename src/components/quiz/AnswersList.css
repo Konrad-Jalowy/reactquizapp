@@ -47,8 +47,11 @@
 
 .answersControls span {
     font-weight: bold;
-    color: rgb(63 63 70);
-    font-size: 2rem;
+  color: rgb(226 232 240);
+  font-size: 2rem;
+  background-color: rgb(100 116 139);
+  padding: 8px 16px;
+  border-radius: 10px;
 }
 .answersControls button {
     min-width: 120px;

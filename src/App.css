@@ -118,3 +118,21 @@ progress {
   background-color: rgb(148 163 184);
 }
 
+.score {
+  
+  display: flex;
+  justify-content: flex-end;
+}
+.score p {
+  flex-basis: 200px;
+  height: 55px;
+  font-weight: bold;
+  color: rgb(226 232 240);
+  font-size: 2rem;
+  background-color: rgb(100 116 139);
+  padding: 8px 16px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

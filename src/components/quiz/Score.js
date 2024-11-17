@@ -1,6 +1,9 @@
 function Score({score}){
     return (
-        <p>Score: {score}</p>
+        <div className="score">
+            <p>Score: {score}</p>
+        </div>
+        
     )
 };
 
