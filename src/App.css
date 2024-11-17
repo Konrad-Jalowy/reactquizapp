@@ -12,13 +12,13 @@ body {
 h1 {
   font-size: 4rem;
   font-weight: bolder;
-   background-color: rgb(34 211 238);
+   background-color: rgb(82 82 91);
    padding: 0.5rem;
    margin-block: 1rem;
    border-radius: 1rem;
    text-align: center;
-   color: rgb(165 243 252);
-   text-shadow: 2px 2px 1px rgb(207 250 254);
+   color: rgb(212 212 216);
+   text-shadow: 1px 1px 3px rgb(212 212 216);
 }
 .App {
   /* text-align: center; */
