@@ -10,13 +10,15 @@
 .answersList li {
     padding: 12px;
     font-weight: bold;
-    color: rgb(64 64 64);
     border-radius: 5px;
     transition: all .5s;
-    background-color: rgb(5 150 105); 
-   
     background-color: rgb(100 116 139);
-    color:white;
+    color:rgb(226 232 240);
+    flex-basis: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 2rem;
 }
 
 .answersList li.hoverable:hover{

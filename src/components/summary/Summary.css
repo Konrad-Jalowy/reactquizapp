@@ -71,8 +71,8 @@
 }
 
 .answersListSummary li.correct-outline {
-    border: 3px solid rgb(22 163 74);
-    color: rgb(22 163 74);;
+    border: 5px solid rgb(21 128 61);
+    /* color: rgb(22 163 74); */
     font-weight: bolder;
 }
 
