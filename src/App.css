@@ -106,6 +106,9 @@ progress {
   border-radius: 10px;
   transition: all .5s;
   text-transform: uppercase;
+  background-color: rgb(139 92 246);
+  color: rgb(221 214 254);
+    box-shadow: 0px 0px 7px rgb(139 92 246);
 
 }
 
@@ -116,7 +119,7 @@ progress {
 }
 
 .container button:hover {
-  background-color: rgb(148 163 184);
+  background-color: rgb(192 132 252);
 }
 
 .score {
@@ -137,3 +140,13 @@ progress {
   justify-content: center;
   align-items: center;
 }
+
+/* .summaryButtons button {
+    background-color: rgb(139 92 246);
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(221 214 254);
+    box-shadow: 0px 0px 7px rgb(139 92 246);
+} */
