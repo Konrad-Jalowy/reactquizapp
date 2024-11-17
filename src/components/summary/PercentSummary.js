@@ -15,9 +15,9 @@ function PercentSummary({answers, score}){
         <>
         <div className="percentSummary">
             <p>Score: {score}pt / {max}pt</p>
-            <p>Correct: {correct} / {max} ({correctPercent}%)</p>
-            <p>Wrong: {wrong} / {max} ({wrongPercent}%)</p>
-            <p>Skipped: {skipped} / {max} ({skippedPercent}%)</p>
+            <p className="correct">Correct: {correct} / {max} ({correctPercent}%)</p>
+            <p className="wrong">Wrong: {wrong} / {max} ({wrongPercent}%)</p>
+            <p className="skipped">Skipped: {skipped} / {max} ({skippedPercent}%)</p>
         </div>
         </>
     )

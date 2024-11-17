@@ -68,7 +68,7 @@
 }
 
 .answersListSummary li.correct-outline {
-    border: 3px solid rgb(22 163 74);;
+    border: 3px solid rgb(22 163 74);
     color: rgb(22 163 74);;
     font-weight: bolder;
 }
@@ -97,6 +97,17 @@
     border-radius: 5px;
     font-weight: bold;
     font-size: 1.5rem;
+    color: white;
+}
+
+.percentSummary > p.skipped {
+    color: rgb(253 186 116);
+}
+.percentSummary > p.wrong {
+    color: rgb(239 68 68);
+}
+.percentSummary > p.correct {
+    color: rgb(20 83 45);
 }
 
 hr {
