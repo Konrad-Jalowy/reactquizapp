@@ -33,6 +33,13 @@ function quizContextReducer(state, action){
               timePerQuestion: action.payload
             };
           }
+
+          case 'passingScoreChange': {
+            return {
+              ...state, 
+              passingScore: action.payload
+            };
+          }
         default: {
           throw Error('Unknown action: ' + action.type);
         }
