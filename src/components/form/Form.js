@@ -2,6 +2,7 @@ import { ShowCorrectCheckbox } from "./ShowCorrectCheckbox";
 import { ShowScoreCheckbox } from "./ShowScoreCheckbox";
 import { ShuffleAnswersCheckbox } from "./ShuffleAnswersCheckbox";
 import { QuestionTiming } from "./QuestionTiming";
+import { PassingScore } from "./PassingScore";
 import './Form.css';
 function Form({setMode}){
     return (
@@ -13,6 +14,7 @@ function Form({setMode}){
         <ShowScoreCheckbox/>
         <ShowCorrectCheckbox/>
         <QuestionTiming/>
+        <PassingScore/>
         <button className="startBtn" onClick={() => setMode('quiz')}>Start</button>
         </div>
         
