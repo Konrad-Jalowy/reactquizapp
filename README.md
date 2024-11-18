@@ -1,7 +1,6 @@
-# My Quiz App Project
+# My Quiz App Project (finished)
 
 This is my project of quiz app in React. Enjoy.
-
 
 Ive been working like 3 days on that. Finally basic functionality is working. Right now i think how to change CSS.
 
@@ -17,3 +16,6 @@ blocks the timer (if its enabled) shows selected answer in orange, waits a littl
 or - if enabled - shows red/green and then shows next question.
 
 Anyway, this is working prototype. I will start adding CSS styles to it soon.
+
+EDIT from future: The project is finished. Maybe I will have some idea and add it to it, but right now it is finished,
+working as I wanted, good looking (CSS).
