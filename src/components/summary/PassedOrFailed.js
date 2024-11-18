@@ -2,12 +2,14 @@ import { useQuiz } from "../../context/quizcontext";
 
 function PassedOrFailed({score}){
     const {passingScore} = useQuiz();
-    let message = score >= passingScore ? `You passed!` : `You failed`;
+
+    const passed = (score >= passingScore);
+    let message = passed ? `❎You passed!` : `You failed!`;
 
     return (
         <>
-        <h3>{message}</h3>
-        <p>Minimum to pass the test is {passingScore}pt</p>
+        <h3 className={passed ? 'passed' : 'failed'}>{message}</h3>
+        <p className="minimum-to-pass">Minimum to pass the test is {passingScore}pt!</p>
         </>
     )
 };

@@ -172,3 +172,22 @@ hr {
     border: 5px solid rgb(22 101 52);
     box-shadow: 1px 1px 10px rgb(22 101 52);
 }
+
+.passed, .failed {
+    text-transform: uppercase;
+}
+
+.failed {
+    color: rgb(220 38 38);
+}
+
+.passed {
+    color: rgb(22 101 52);
+}
+
+.minimum-to-pass {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: rgb(51 65 85);
+}
