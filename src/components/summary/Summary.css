@@ -19,6 +19,8 @@
     justify-content: flex-start;
     align-items: center;
     font-size: 2rem;
+    background-color: rgb(157 23 77);
+    color: rgb(249 168 212);
 }
 
 .summaryHeading {
@@ -148,4 +150,25 @@ hr {
     margin-top: 2rem;
     height: 3px;
     background-color: black;
+}
+
+.answersListSummary li.correct-one {
+    background-color: rgb(22 101 52);
+    color: rgb(134 239 172);
+    /* border: 2px solid rgb(22 101 52); */
+}
+.answersListSummary li.wrong-one {
+    background-color: rgb(220 38 38);
+    color: rgb(254 202 202);
+   
+}
+
+.answersListSummary li.chosen-one {
+    border: 5px solid rgb(251 146 60);
+    box-shadow: 0px 0px 7px rgb(234 88 12);
+}
+
+.answersListSummary li.correct-one:not(.chosen-one) {
+    border: 5px solid rgb(22 101 52);
+    box-shadow: 1px 1px 10px rgb(22 101 52);
 }

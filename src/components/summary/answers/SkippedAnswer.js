@@ -15,7 +15,7 @@ function SkippedAnswer({idx}){
             {answers.map(([key, val]) => {
                 return (<li 
                     key={key} 
-                    className={key === correctOne ? "correct-outline" : ""}>{val}</li>)
+                    className={key === correctOne ? "correct-one" : ""}>{val}</li>)
             })}
         </ul>
         </>
