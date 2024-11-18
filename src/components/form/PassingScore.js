@@ -1,5 +1,14 @@
+import { useQuizWithDispatch } from "../../context/quizcontext";
+
 function PassingScore(){
-    return "not implemented";
+    const [{passingScore}, dispatch] = useQuizWithDispatch();
+    return (
+        <>
+        <div className="checkbox">
+
+        </div>
+        </>
+    )
 };
 
 export {PassingScore};
